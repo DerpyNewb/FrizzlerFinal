@@ -2,7 +2,7 @@ package com.krish.foody.util
 
 class Constants {
     companion object {
-        const val API_KEY = "YOUR_API_KEY"
+        const val API_KEY = "08624af412044e3288f0a5f0bd13162a"
         const val BASE_URL = "https://api.spoonacular.com"
         const val BASE_IMAGE_URL = "https://spoonacular.com/cdn/ingredients_100x100/"
         const val RECIPE_RESULT_KEY = "recipesBundle"
