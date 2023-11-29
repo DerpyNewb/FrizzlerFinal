@@ -5,6 +5,7 @@ import android.content.Context
 import android.net.ConnectivityManager
 import android.net.NetworkCapabilities
 import androidx.lifecycle.*
+import com.krish.foody.SearchFragment
 import com.krish.foody.data.Repository
 import com.krish.foody.data.database.entities.FavoritesEntity
 import com.krish.foody.data.database.entities.FoodJokeEntity

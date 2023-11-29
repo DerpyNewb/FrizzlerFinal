@@ -4,16 +4,18 @@
     <item
         android:id="@+id/recipesFragment"
         android:icon="@drawable/ic_menu_book"
-        android:title="Recipes" />
-
+        android:title="Home" />
+    <item
+        android:id="@+id/SearchFragment"
+        android:icon="@drawable/search_menu"
+        android:title="Search" />
     <item
         android:id="@+id/favoriteRecipesFragment"
         android:icon="@drawable/ic_star"
         android:title="Favorite" />
 
     <item
-        android:id="@+id/foodJokeFragment"
-        android:icon="@drawable/ic_food_joke"
-        android:title="Joke" />
-
+        android:id="@+id/SettingsFragment"
+        android:icon="@drawable/settings_icon"
+        android:title="Settings" />
 </menu>
