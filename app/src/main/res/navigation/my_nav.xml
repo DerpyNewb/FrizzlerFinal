@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/recipesFragment"
         android:name="com.krish.foody.ui.fragments.recipes.RecipesFragment"
-        android:label="Recipes"
+        android:label="Discover Recipes!"
         tools:layout="@layout/fragment_recipes" >
         <action
             android:id="@+id/action_recipesFragment_to_recipesBottomSheet"
@@ -30,6 +30,33 @@
         tools:layout="@layout/fragment_favorite_recipes" >
         <action
             android:id="@+id/action_favoriteRecipesFragment_to_detailsActivity"
+            app:destination="@id/detailsActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/FridgeFragment"
+        android:name="com.krish.foody.FridgeFragment"
+        android:label="The Fridge"
+        tools:layout="@layout/fragment_fridge" >
+        <action
+            android:id="@+id/action_FridgeFragment_to_detailsActivity"
+            app:destination="@id/detailsActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/SettingsFragment"
+        android:name="com.krish.foody.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_search" >
+        <action
+            android:id="@+id/action_SettingsFragment_to_detailsActivity"
+            app:destination="@id/detailsActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/SearchFragment"
+        android:name="com.krish.foody.SearchFragment"
+        android:label="Search"
+        tools:layout="@layout/fragment_search" >
+        <action
+            android:id="@+id/action_SearchFragment_to_detailsActivity"
             app:destination="@id/detailsActivity" />
     </fragment>
     <fragment

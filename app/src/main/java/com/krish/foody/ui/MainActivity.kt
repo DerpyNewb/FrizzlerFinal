@@ -28,6 +28,7 @@ class MainActivity : AppCompatActivity() {
             setOf(
                 R.id.recipesFragment,
                 R.id.SearchFragment,
+                R.id.FridgeFragment,
                 R.id.favoriteRecipesFragment,
                 R.id.SettingsFragment
             )
