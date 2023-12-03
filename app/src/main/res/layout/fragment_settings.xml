@@ -7,8 +7,8 @@
 
     <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/imvCircularWithStroke"
-        android:layout_width="354dp"
-        android:layout_height="423dp"
+        android:layout_width="356dp"
+        android:layout_height="577dp"
         android:background="@color/actionBarBackgroundColor"
         android:padding="5dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -22,7 +22,7 @@
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="161dp"
-        android:layout_height="289dp"
+        android:layout_height="416dp"
         android:orientation="vertical"
 
         app:layout_constraintBottom_toBottomOf="@+id/imvCircularWithStroke"
@@ -46,7 +46,7 @@
             android:layout_width="wrap_content"
             android:layout_height="48dp"
             android:paddingTop="10dp"
-            android:text="Share Frizzler"
+            android:text="Language"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="#FFFFFF" />
 
@@ -77,12 +77,30 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="#FFFFFF" />
 
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:paddingTop="10dp"
+            android:text="Share Frizzler"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:paddingTop="10dp"
+            android:text="About the App"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#FFFFFF" />
+
     </LinearLayout>
 
 
     <LinearLayout
-        android:layout_width="131dp"
-        android:layout_height="289dp"
+        android:layout_width="134dp"
+        android:layout_height="418dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="@+id/imvCircularWithStroke"
         app:layout_constraintEnd_toEndOf="@+id/imvCircularWithStroke"
@@ -98,6 +116,16 @@
             android:paddingLeft="30dp"
             android:paddingTop="10dp"
             android:text="METRIC"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:paddingLeft="30dp"
+            android:paddingTop="10dp"
+            android:text="English"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="#FFFFFF" />
 
@@ -132,6 +160,16 @@
             android:paddingTop="10dp"
             android:paddingBottom="10dp"
             app:srcCompat="@drawable/arrow" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            app:srcCompat="@drawable/arrow" />
+
+
 
     </LinearLayout>
 
