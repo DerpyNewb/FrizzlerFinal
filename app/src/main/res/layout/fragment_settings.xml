@@ -9,7 +9,7 @@
         android:id="@+id/imvCircularWithStroke"
         android:layout_width="354dp"
         android:layout_height="423dp"
-        android:background="#FD6E40"
+        android:background="@color/actionBarBackgroundColor"
         android:padding="5dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -7,12 +7,9 @@
         android:title="Home" />
     <item
         android:id="@+id/SearchFragment"
-        android:icon="@drawable/search_menu"
-        android:title="Search" />
-    <item
-        android:id="@+id/FridgeFragment"
         android:icon="@drawable/fridge"
         android:title="The Fridge" />
+
     <item
         android:id="@+id/favoriteRecipesFragment"
         android:icon="@drawable/ic_star"
