@@ -28,6 +28,15 @@
             <TextView
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
+                android:text="UNDER DEVELOPMENT"
+                android:textColor="@color/actionBarBackgroundColor"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="25dp"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
                 android:text="Vegetables and Fruits"
                 android:textColor="@color/black"
                 android:layout_marginLeft="25dp"
@@ -50,7 +59,7 @@
                 <androidx.cardview.widget.CardView
                     android:layout_width="93dp"
                     android:layout_height="107dp"
-                    android:layout_marginLeft="35dp"
+                    android:layout_marginLeft="25dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginRight="15dp"
                     app:cardCornerRadius="5dp">
@@ -70,7 +79,7 @@
                         android:gravity="bottom"
                         android:text="Potato"
                         android:textAlignment="center"
-                        android:textColor="@color/material_dynamic_primary10"
+                        android:textColor="@color/white"
                         android:textSize="12dp">
 
                     </TextView>
@@ -100,7 +109,7 @@
                         android:gravity="bottom"
                         android:text="Tomato"
                         android:textAlignment="center"
-                        android:textColor="@color/material_dynamic_primary10"
+                        android:textColor="@color/white"
                         android:textSize="12dp">
 
                     </TextView>
@@ -130,7 +139,7 @@
                         android:gravity="bottom"
                         android:text="Orange"
                         android:textAlignment="center"
-                        android:textColor="@color/material_dynamic_primary10"
+                        android:textColor="@color/white"
                         android:textSize="12dp">
 
                     </TextView>
@@ -163,7 +172,7 @@
                 <androidx.cardview.widget.CardView
                     android:layout_width="93dp"
                     android:layout_height="107dp"
-                    android:layout_marginLeft="35dp"
+                    android:layout_marginLeft="25dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginRight="15dp"
                     app:cardCornerRadius="5dp"
@@ -184,7 +193,7 @@
                         android:gravity="bottom"
                         android:text="Egg"
                         android:textAlignment="center"
-                        android:textColor="@color/material_dynamic_primary10"
+                        android:textColor="@color/white"
                         android:textSize="12dp">
 
                     </TextView>
@@ -214,7 +223,7 @@
                         android:gravity="bottom"
                         android:text="Milk"
                         android:textAlignment="center"
-                        android:textColor="@color/material_dynamic_primary10"
+                        android:textColor="@color/white"
                         android:textSize="12dp">
 
                     </TextView>
@@ -244,7 +253,7 @@
                         android:gravity="bottom"
                         android:text="Cheese"
                         android:textAlignment="center"
-                        android:textColor="@color/material_dynamic_primary10"
+                        android:textColor="@color/white"
                         android:textSize="12dp">
 
                     </TextView>
@@ -260,7 +269,7 @@
                 <androidx.cardview.widget.CardView
                     android:layout_width="93dp"
                     android:layout_height="107dp"
-                    android:layout_marginLeft="35dp"
+                    android:layout_marginLeft="25dp"
                     android:layout_marginTop="20dp"
                     android:layout_marginRight="15dp"
                     app:cardCornerRadius="5dp"
@@ -281,7 +290,7 @@
                         android:gravity="bottom"
                         android:text="Butter"
                         android:textAlignment="center"
-                        android:textColor="@color/material_dynamic_primary10"
+                        android:textColor="@color/white"
                         android:textSize="12dp">
 
                     </TextView>
@@ -314,7 +323,7 @@
                 <androidx.cardview.widget.CardView
                     android:layout_width="93dp"
                     android:layout_height="107dp"
-                    android:layout_marginLeft="35dp"
+                    android:layout_marginLeft="25dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginRight="15dp"
                     app:cardCornerRadius="5dp"
@@ -335,7 +344,7 @@
                         android:gravity="bottom"
                         android:text="Pasta"
                         android:textAlignment="center"
-                        android:textColor="@color/material_dynamic_primary10"
+                        android:textColor="@color/white"
                         android:textSize="12dp">
 
                     </TextView>
@@ -365,7 +374,7 @@
                         android:gravity="bottom"
                         android:text="Grain"
                         android:textAlignment="center"
-                        android:textColor="@color/material_dynamic_primary10"
+                        android:textColor="@color/white"
                         android:textSize="12dp">
 
                     </TextView>
@@ -395,7 +404,7 @@
                         android:gravity="bottom"
                         android:text="Oatmeal"
                         android:textAlignment="center"
-                        android:textColor="@color/material_dynamic_primary10"
+                        android:textColor="@color/white"
                         android:textSize="12dp">
 
                     </TextView>
@@ -427,7 +436,7 @@
                 <androidx.cardview.widget.CardView
                     android:layout_width="93dp"
                     android:layout_height="107dp"
-                    android:layout_marginLeft="35dp"
+                    android:layout_marginLeft="25dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginRight="15dp"
                     app:cardCornerRadius="5dp"
@@ -448,7 +457,7 @@
                         android:gravity="bottom"
                         android:text="Star Anise"
                         android:textAlignment="center"
-                        android:textColor="@color/material_dynamic_primary10"
+                        android:textColor="@color/white"
                         android:textSize="12dp">
 
                     </TextView>
@@ -478,7 +487,7 @@
                         android:gravity="bottom"
                         android:text="Turmeric"
                         android:textAlignment="center"
-                        android:textColor="@color/material_dynamic_primary10"
+                        android:textColor="@color/white"
                         android:textSize="12dp">
 
                     </TextView>
@@ -508,7 +517,7 @@
                         android:gravity="bottom"
                         android:text="Salt"
                         android:textAlignment="center"
-                        android:textColor="@color/material_dynamic_primary10"
+                        android:textColor="@color/white"
                         android:textSize="12dp">
 
                     </TextView>
